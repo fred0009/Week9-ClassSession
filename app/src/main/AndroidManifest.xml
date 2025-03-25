@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Week9ClassSession"
         tools:targetApi="31">
         <activity
+            android:name=".URLDemo"
+            android:exported="true" />
+        <activity
+            android:name=".UsingHandlerExample"
+            android:exported="true" />
+        <activity
             android:name=".ConcurrentDemoActivity"
             android:exported="true">
             <intent-filter>

@@ -69,6 +69,7 @@ interface Subject {
 
 class Topic implements Subject {
     private String message;  // the status
+
     private ArrayList<Observer> observers;
 
     public Topic (){
